@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Revelation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Stubs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MW2.cpp">
+      <Filter>Source Files\MW2</Filter>
+    </ClCompile>
+    <ClCompile Include="MW2_Stubs.cpp">
+      <Filter>Source Files\MW2</Filter>
+    </ClCompile>
+    <ClCompile Include="MW2_Functions.cpp">
+      <Filter>Source Files\MW2</Filter>
+    </ClCompile>
+    <ClCompile Include="MW3.cpp">
+      <Filter>Source Files\MW3</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="XEX.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{d3b19126-1f73-4fce-b7ec-c0f0a6732533}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{f58fd140-22d9-4f5c-bc90-c87dc9721409}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MW2">
+      <UniqueIdentifier>{e0eae54c-f57e-4467-adbd-1fbf18a45b77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\MW2">
+      <UniqueIdentifier>{5e3de9cb-dcee-4e4f-83ee-30d49ffd0a47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MW3">
+      <UniqueIdentifier>{fc6b5cbc-e09e-45af-bcc6-a43020012e90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\MW3">
+      <UniqueIdentifier>{ba0e0860-6913-40a9-85ed-0c209e886f3e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Stubs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MW2.h">
+      <Filter>Header Files\MW2</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MW2_Stubs.h">
+      <Filter>Header Files\MW2</Filter>
+    </ClInclude>
+    <ClInclude Include="MW2_Addresses.h">
+      <Filter>Header Files\MW2</Filter>
+    </ClInclude>
+    <ClInclude Include="MW2_Functions.h">
+      <Filter>Header Files\MW2</Filter>
+    </ClInclude>
+    <ClInclude Include="MW3.h">
+      <Filter>Header Files\MW3</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
